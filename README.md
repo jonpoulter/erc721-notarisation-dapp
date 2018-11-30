@@ -27,8 +27,14 @@ npm install
 
 ### Rinkeby Network
 
-The smart contract is already deployed on Ethereum's Rinkeby Network.  The index.html is configured to use the address and ABI for this smart-contract.
+The smart contract is already deployed on Ethereum's Rinkeby Network.  The index.html is configured to use the address and ABI for this smart-contract.  The contract address and tx hash are shown below along with a transaction hash for the first `createStar()` invocation.
 
+```
+contract address: 0x615e86ad5d77844821a92615bc9fa9b6d56372bd
+contract tx hash: 0xd56e73a714837ff923365ecb48008c4d9e74c97a01742d223dae4a660d2108fa
+
+createStar: 0xd502af46aa5788ad02e3661a58a5459a5e912c27b0973c5efe0913337ae6a29d
+```
 
 - Execute following command under the root folder containing index.html file.  Ensure no other process is using port 8080 otherwise configure http-server to bind to an alternative port.
 
